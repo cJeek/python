@@ -1,4 +1,6 @@
 
+#http://www.swig.org/Doc2.0/Python.html
+
 rm *.o *.so *cxx *.py
 swig -python -c++ test.i
 g++ -O2 -fPIC -c test.cpp 
